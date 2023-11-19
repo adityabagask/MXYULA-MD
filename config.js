@@ -2,11 +2,11 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 owner = [
-  ['6281283516246', 'Maximus', true]
+  ['6281315379437', 'Maximus', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-mods = ['6281283516246'] // Want some help?
-prems = ['6281283516246'] // Premium user has unlimited limit
+mods = ['6281315379437'] // Want some help?
+prems = ['6281315379437'] // Premium user has unlimited limit
 global.lolkey = 'Apikeylu' // Buy keys at https://api.lolhuman.xyz
 global.lann = 'Apikeylu' // Buy keys at https://api.betabotz.org
 global.btc = 'Apikeylu' // Buy keys at https://api.botchax.live
