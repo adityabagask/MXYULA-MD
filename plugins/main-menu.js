@@ -30,19 +30,19 @@ let tags = {
 }
 const defaultMenu = {
   before: `Hi *%name*,
-I'm *YuLa*, I'm the Assistant for this group. *YuLa* can help you search for data or retrieve data only through the WhatsApp application.
+Hi aku *Louise*, Aku asisten di grup ini. *Louise* Bisa bantu kalian buat nyari apa aja di grup ini.
 
 *「 I N F O   F E A T U R E 」*
  •  *Premium features :* Ⓟ
  •  *Limits features :* Ⓛ
 
-If you encounter an ERROR or you want to buy PREMIUM access, you can chat with the owner. by writing *.owner* and YuLa will give you the owner number.
+Kalau ada ERROR atau mau beli PREMIUM langsung chat admin aja ya. dengan mengetik *.owner* dan *Louise* akan memberikan nomer ownernya.
 %readmore
 `.trimStart(),
   header: '*—「 %category  」*\n',
   body: '► %cmd %isPremium %islimit',
   footer: '\n',
-  after: `*Assisten YuLa  ©  2 0 2 3*`,
+  after: `*Asisten Louise  ©  2 0 2 3*`,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
@@ -150,10 +150,10 @@ text: text,
 contextInfo: {
 mentionedJid: [m.sender],
 externalAdReply: {
-title: 'Assisten YuLa 💕',
-body: 'Powered By Maximus',
-thumbnailUrl: "https://telegra.ph/file/7a20200e053f8906d375f.jpg",
-sourceUrl: "https://chat.whatsapp.com/LZCnnSQFPkF3C6zrDcH5n8",
+title: 'Assisten Louise 💕',
+body: 'Powered By Bagas',
+thumbnailUrl: "https://telegra.ph/file/d9dcd707fb115274eaf0e.jpg",
+sourceUrl: "https://chat.whatsapp.com/HHfMqTQYJ5fEcK9EzzLWNm",
 mediaType: 1,
 renderLargerThumbnail: true
 }}})
